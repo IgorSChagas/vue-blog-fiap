@@ -1,15 +1,15 @@
 <template>
-  <div class="mb-6 p-4 border rounded-lg shadow hover:shadow-lg transition">
-    <router-link :to="`/post/${post.slug}`">
-      <h2 class="text-xl font-semibold text-blue-600 hover:underline">
-        {{ post.title }}
-      </h2>
-    </router-link>
-    <p class="text-gray-700">{{ post.description }}</p>
-    <hr />
-  </div>
+	<Accordion :multiple="true" class="mb-4">
+		<AccordionTab :header="post.title">
+			<p class="text-gray-700 mb-3">{{ post.description }}</p>
+			<router-link :to="`/post/${post.slug}`">
+				<Button label="Ler mais" class="p-button-sm" severity="contrast" />
+			</router-link>
+		</AccordionTab>
+	</Accordion>
 </template>
 
 <script setup>
+import Button from "primevue/button";
 defineProps({ post: Object });
 </script>
