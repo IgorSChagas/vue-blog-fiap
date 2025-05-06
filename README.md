@@ -97,12 +97,6 @@ Este projeto pode ser facilmente publicado com [Vercel](https://vercel.com/) ou 
 
 ---
 
-## 👨‍💻 Autor
-
-Desenvolvido por [Seu Nome](https://github.com/seu-usuario)
-
----
-
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está sob a licença MIT.
