@@ -1,7 +1,7 @@
 <template>
 	<div class="container mx-auto px-4 py-8">
 		<h1 class="text-3xl font-bold text-center text-primary mb-10">
-			📝 Meu Blog
+			📝 Meu Blog Teste
 		</h1>
 
 		<div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
