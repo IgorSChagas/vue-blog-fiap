@@ -14,4 +14,5 @@ import { posts } from '../data/posts';
 
 const route = useRoute();
 const post = posts.find((p) => p.slug === route.params.slug);
+
 </script>
